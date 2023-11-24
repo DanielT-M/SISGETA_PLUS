@@ -1,0 +1,45 @@
+.header_top {
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #86b817;
+    border: 0px;
+}
+
+.wave_header {
+    transform: translateY(-10px);
+}
+
+.wave_desktop {
+    transform: translateY(-10px);
+    display: none;
+}
+
+.option_contact {
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hyperHref {
+    color: white;
+    text-decoration: none;
+}
+
+.hyperHref:hover {
+    color: white;
+}
+
+@media (min-width: 1239px) {
+    .wave_header {
+        display: none;
+    }
+
+    .wave_desktop {
+        display: block;
+    }
+}
